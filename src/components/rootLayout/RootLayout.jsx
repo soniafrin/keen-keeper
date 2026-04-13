@@ -3,7 +3,7 @@ import NavBar from "../sharedComponents/NavBar";
 import Footer from "../sharedComponents/Footer";
 import Homepages from "../../pages/Homepages";
 
-const RootLayout = () => {
+const RootLayout = ({children}) => {
     return (
         <div>
             <NavBar />
