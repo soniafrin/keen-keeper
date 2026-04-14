@@ -3,25 +3,30 @@ import RootLayout from "../components/rootLayout/RootLayout";
 import Homepages from "../pages/Homepages";
 import Statistics from "../pages/Statistics";
 import Timeline from "../pages/Timeline";
+import FriendDetails from "../components/friendDetails/FriendDetails";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <RootLayout/>,
-    children:[
+    element: <RootLayout />,
+    children: [
       {
         path: "/",
-        element: <Homepages/>,
+        element: <Homepages />,
       },
       {
         path: "/timeline",
-        element: <Timeline/>,
+        element: <Timeline />,
       },
       {
         path: "/stats",
-        element: <Statistics/>,
+        element: <Statistics />,
       }
     ]
   },
+  {
+    path: '/friendList',
+    element: <FriendDetails/>
+  }
 ])
 export default router;
