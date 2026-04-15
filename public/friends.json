@@ -6,7 +6,10 @@
     "email": "john@example.com",
     "days_since_contact": 12,
     "status": "overdue",
-    "tags": ["college", "close friend"],
+    "tags": [
+      "college",
+      "close friend"
+    ],
     "bio": "Met in university. Love hiking together.",
     "goal": 14,
     "next_due_date": "2025-07-20"
@@ -18,7 +21,10 @@
     "email": "s.jenkins@provider.net",
     "days_since_contact": 3,
     "status": "active",
-    "tags": ["work", "mentor"],
+    "tags": [
+      "work",
+      "mentor"
+    ],
     "bio": "Former manager at TechCorp. Great for career advice.",
     "goal": 30,
     "next_due_date": "2025-08-15"
@@ -30,7 +36,10 @@
     "email": "mchen88@webmail.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["gaming", "high school"],
+    "tags": [
+      "gaming",
+      "high school"
+    ],
     "bio": "Old friend from home. Plays League of Legends.",
     "goal": 30,
     "next_due_date": "2025-06-10"
@@ -42,7 +51,10 @@
     "email": "elena.rod@service.com",
     "days_since_contact": 1,
     "status": "active",
-    "tags": ["family", "sister"],
+    "tags": [
+      "family",
+      "sister"
+    ],
     "bio": "Lives in Madrid. We talk almost every day.",
     "goal": 2,
     "next_due_date": "2025-07-03"
@@ -54,7 +66,10 @@
     "email": "dave_smith@company.org",
     "days_since_contact": 20,
     "status": "pending",
-    "tags": ["networking", "investor"],
+    "tags": [
+      "networking",
+      "investor"
+    ],
     "bio": "Met at the 2024 Tech Summit. Interested in SaaS.",
     "goal": 60,
     "next_due_date": "2025-09-01"
@@ -66,7 +81,10 @@
     "email": "akhan@design.io",
     "days_since_contact": 7,
     "status": "active",
-    "tags": ["creative", "freelancer"],
+    "tags": [
+      "creative",
+      "freelancer"
+    ],
     "bio": "Graphic designer. Worked on the branding project.",
     "goal": 14,
     "next_due_date": "2025-07-14"
@@ -78,7 +96,10 @@
     "email": "robert.t@university.edu",
     "days_since_contact": 90,
     "status": "overdue",
-    "tags": ["college", "dorm-mate"],
+    "tags": [
+      "college",
+      "dorm-mate"
+    ],
     "bio": "Shared a room for 2 years. Need to catch up.",
     "goal": 60,
     "next_due_date": "2025-05-15"
@@ -90,7 +111,10 @@
     "email": "lisa.wang@lifestyle.com",
     "days_since_contact": 5,
     "status": "active",
-    "tags": ["gym", "neighbor"],
+    "tags": [
+      "gym",
+      "neighbor"
+    ],
     "bio": "Lives in Apartment 4B. Yoga enthusiast.",
     "goal": 7,
     "next_due_date": "2025-07-10"
@@ -102,7 +126,10 @@
     "email": "kmiller@startup.co",
     "days_since_contact": 15,
     "status": "active",
-    "tags": ["work", "developer"],
+    "tags": [
+      "work",
+      "developer"
+    ],
     "bio": "Frontend lead. Good resource for React questions.",
     "goal": 21,
     "next_due_date": "2025-07-25"
@@ -114,7 +141,10 @@
     "email": "m.garcia@nonprofit.org",
     "days_since_contact": 2,
     "status": "active",
-    "tags": ["volunteer", "community"],
+    "tags": [
+      "volunteer",
+      "community"
+    ],
     "bio": "Organizes the local food drive. Very reliable.",
     "goal": 30,
     "next_due_date": "2025-08-01"
@@ -126,7 +156,10 @@
     "email": "jwilson@legal.com",
     "days_since_contact": 120,
     "status": "inactive",
-    "tags": ["old job", "acquaintance"],
+    "tags": [
+      "old job",
+      "acquaintance"
+    ],
     "bio": "Former lawyer for my previous company.",
     "goal": 365,
     "next_due_date": "2026-03-10"
