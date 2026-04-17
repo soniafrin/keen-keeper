@@ -4,8 +4,7 @@ import { TimeLineContext } from "../context/FriendContextProvidder";
 
 
 
-const Statistics = (addedCheckInTYpe) => {
-    console.log(addedCheckInTYpe);
+const Statistics = () => {
     const { checkIn } = useContext(TimeLineContext);
 
     if (checkIn.length === 0) {

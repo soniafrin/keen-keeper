@@ -4,6 +4,7 @@ import img from "../../assets/logo.png"
 import { ChartLine, History, House } from "lucide-react";
 
 const NavBar = () => {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <nav className="nav-bar shadow ">
             <div className="flex justify-between container mx-auto p-4">

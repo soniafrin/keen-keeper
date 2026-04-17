@@ -20,7 +20,7 @@
     "picture": "/profilePhotos/23.jpg",
     "email": "s.jenkins@provider.net",
     "days_since_contact": 3,
-    "status": "active",
+    "status": "on-track",
     "tags": [
       "work",
       "mentor"
@@ -50,7 +50,7 @@
     "picture": "/profilePhotos/43.jpg",
     "email": "elena.rod@service.com",
     "days_since_contact": 1,
-    "status": "active",
+    "status": "almost due",
     "tags": [
       "family",
       "sister"
@@ -65,7 +65,7 @@
     "picture": "/profilePhotos/66.jpg",
     "email": "dave_smith@company.org",
     "days_since_contact": 20,
-    "status": "pending",
+    "status": "on-track",
     "tags": [
       "networking",
       "investor"
@@ -80,7 +80,7 @@
     "picture": "/profilePhotos/71.jpg",
     "email": "akhan@design.io",
     "days_since_contact": 7,
-    "status": "active",
+    "status": "on-track",
     "tags": [
       "creative",
       "freelancer"
@@ -110,7 +110,7 @@
     "picture": "/profilePhotos/90.jpg",
     "email": "lisa.wang@lifestyle.com",
     "days_since_contact": 5,
-    "status": "active",
+    "status": "almost due",
     "tags": [
       "gym",
       "neighbor"
@@ -125,7 +125,7 @@
     "picture": "/profilePhotos/93.jpg",
     "email": "kmiller@startup.co",
     "days_since_contact": 15,
-    "status": "active",
+    "status": "almost due",
     "tags": [
       "work",
       "developer"
@@ -140,7 +140,7 @@
     "picture": "/profilePhotos/92.jpg",
     "email": "m.garcia@nonprofit.org",
     "days_since_contact": 2,
-    "status": "active",
+    "status": "overdue",
     "tags": [
       "volunteer",
       "community"
@@ -155,7 +155,7 @@
     "picture": "/profilePhotos/91.jpg",
     "email": "jwilson@legal.com",
     "days_since_contact": 120,
-    "status": "inactive",
+    "status": "overdue",
     "tags": [
       "old job",
       "acquaintance"
