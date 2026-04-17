@@ -7,7 +7,7 @@ import { useState } from "react";
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="nav-bar shadow ">
+        <nav className="nav-bar shadow py-3 ">
             <div className="flex justify-between container mx-auto p-4">
                 <Link to={"/"}>
                     <img src={img} alt="keen keeper logo" />
