@@ -1,14 +1,23 @@
 import { NavLink } from "react-router";
+import MyNavLink from "./MyNavLink";
+import img from "../../assets/logo.png"
+import { ChartLine, History, House } from "lucide-react";
 
 const NavBar = () => {
     return (
         <nav className="nav-bar shadow ">
             <div className="flex justify-between container mx-auto p-4">
-                <h1><span className="font-bold">Keen</span>Keeper</h1>
+                <img src={img} alt="keen keeper logo" />
                 <ul className="flex justify-between gap-4">
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/timeline">Timeline</NavLink></li>
-                    <li><NavLink to="/stats">Stats</NavLink></li>
+                    <li >
+                         <MyNavLink className="flex px-2 py-1 rounded" to={"/"} ><House className="mr-1" />Home</MyNavLink >
+                    </li>
+                    <li >
+                         <MyNavLink className="flex px-2 py-1 rounded" to={"/timeline"} ><History className="mr-1" />Timeline</MyNavLink >
+                    </li>
+                    <li >
+                         <MyNavLink className="flex px-2 py-1 rounded" to={"/stats"} ><ChartLine className="mr-1" />Stats</MyNavLink >
+                    </li>
                 </ul>
             </div>
         </nav>
