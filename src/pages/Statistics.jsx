@@ -36,7 +36,10 @@ const Statistics = () => {
                         isAnimationActive={true}
                     />
                     <div className="bg-amber-900">
-                        <Legend />
+                        <Legend
+                            wrapperStyle={{
+                                paddingTop: "20px"
+                            }} />
                     </div>
                     <Tooltip />
                 </PieChart>
