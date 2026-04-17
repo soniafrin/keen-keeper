@@ -17,21 +17,18 @@ const QuickCheckIn = ({ friends, friend, friendId }) => {
             type: activity.toLowerCase(),
             entryId: Math.random(),
         }
+       
         setCheckIn([...checkIn, addedCheckInTYpe])
-        toast(`${actionIcons[activity]} ${activity} with ${friend.name}`, {
+        toast(` ${activity} with ${friend.name}`, {
             position: "top-right",
             autoClose: 2000,
             theme: "light",
         });
-        console.log("activity:", activity);
-    console.log("key:", activity.toLowerCase());
-    console.log("icon:", actionIcons[activity.toLowerCase()]);
+    //     console.log("activity:", activity);
+    // console.log("key:", activity.toLowerCase());
+    // console.log("icon:", actionIcons[activity.toLowerCase()]);
     }
-    const actionIcons = {
-        call: <PhoneCall />,
-        text: <MessageSquareMore />,
-        video: <Video />
-    }
+
     return (
 
         <div>
@@ -41,16 +38,16 @@ const QuickCheckIn = ({ friends, friend, friendId }) => {
                 {/* </div> */}
                 <div className=" cursor-pointer container mx-auto grid grid-cols-3 gap-3 p-10   ">
                     <div onClick={() => handleCheckIn("Call")} className=" border border-gray-200 shadow-sm space-y-2 flex flex-col items-center justify-center rounded">
-                        <span className="font-semibold text-3xl ">{actionIcons.call}</span>
+                        <span className="font-semibold text-3xl "><PhoneCall /></span>
                         <button className=" text-xl text-gray-500 cursor-pointer ">Call</button>
                     </div>
                     <div onClick={() => handleCheckIn("Text")} className=" cursor-pointer  border border-gray-200 shadow-sm py-8 space-y-2 flex flex-col items-center justify-center rounded">
-                        <span className="font-semibold text-3xl">{actionIcons.text}</span>
+                        <span className="font-semibold text-3xl"><MessageSquareMore /></span>
                         <button className="text-xl text-gray-500 cursor-pointer ">Text</button>
                     </div>
 
                     <div onClick={() => handleCheckIn("Video")} className=" cursor-pointer border border-gray-200 shadow-sm py-8 space-y-2 flex flex-col items-center justify-center rounded">
-                        <span className="font-semibold text-3xl">{actionIcons.video}</span>
+                        <span className="font-semibold text-3xl"><Video /></span>
                         <button className="text-xl text-gray-500 cursor-pointer ">Video</button>
                     </div>
                 </div>

@@ -18,23 +18,29 @@ const Statistics = () => {
 
 
     return (
-        <div className="">
-            <PieChart style={{ width: '100%', maxWidth: '300px', maxHeight: '80vh', aspectRatio: 1 }} responsive>
-                <Pie
-                    data={data}
-                    innerRadius="80%"
-                    outerRadius="100%"
-                    // Corner radius is the rounded edge of each pie slice
-                    cornerRadius="50%"
-                    fill="#8884d8"
-                    // padding angle is the gap between each pie slice
-                    paddingAngle={5}
-                    dataKey="value"
-                    isAnimationActive={true}
-                />
-                <Legend />
-                <Tooltip />
-            </PieChart>
+        <div className="container mx-auto mt-6">
+            <h2 className=" text-3xl font-bold">Friendship Analytics</h2>
+            <div className=" container p-5 rounded mx-auto border border-gray-200 shadow-xl mt-5">
+                <i className="text-xl text-gray-500">By Interaction Type</i>
+                <PieChart style={{ width: '100%', maxWidth: "100%", maxHeight: '80vh', aspectRatio: 1 }} responsive>
+                    <Pie
+                        data={data}
+                        innerRadius="80%"
+                        outerRadius="100%"
+                        // Corner radius is the rounded edge of each pie slice
+                        cornerRadius="50%"
+                        fill="#8884d8"
+                        // padding angle is the gap between each pie slice
+                        paddingAngle={5}
+                        dataKey="value"
+                        isAnimationActive={true}
+                    />
+                    <div className="bg-amber-900">
+                        <Legend />
+                    </div>
+                    <Tooltip />
+                </PieChart>
+            </div>
         </div>
     )
 }
