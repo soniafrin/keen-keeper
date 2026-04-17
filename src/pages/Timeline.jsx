@@ -29,7 +29,7 @@ const Timeline = () => {
 
             {/* displaying the filters */}
             <div>
-                {filteredData.map(c => (
+                {filteredData == 0 ? <p>No activity Recorded</p> : filteredData.map(c => (
                     <div key={c.entryId} className="border mt-2">
                         <p>{c.type} with {c.name}</p>
                         <p>
