@@ -1,13 +1,16 @@
-import { use } from "react";
+import { use, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
+import QuickCheckIn from "../quickCheckIn/QuickCheckIn";
 
 
 const FriendDetails = ({ response }) => {
+
     const friends = useLoaderData();
     // const friends = use(response);
     const { friendId } = useParams();
 
     const friend = friends.find(f => f.id === parseInt(friendId));
+   
     if (!friend) { return <div className="text-center mt-5">Friend not found</div> }
 
     return (
@@ -61,25 +64,12 @@ const FriendDetails = ({ response }) => {
 
                 </div>
                 {/* Quick Check-In Card */}
-                <div className="border mt-5 ">
-                    {/* <div> */}
-                    <p>Quick Check-In</p>
-                    {/* </div> */}
-                    <div className=" container mx-auto grid grid-cols-4 gap-2 p-10  ">
-                        <div className="shadow-sm py-8 space-y-2 flex flex-col items-center justify-center rounded">
-                            <span className="font-semibold text-3xl">10</span>
-                            <span className="text-xl text-gray-500">Call</span>
-                        </div>
-                        <div className="shadow-sm py-8 space-y-2 flex flex-col items-center justify-center rounded">
-                            <span className="font-semibold text-3xl">10</span>
-                            <span className="text-xl text-gray-500">Text</span>
-                        </div>
+                    <QuickCheckIn friends={friends} friend={friend} friendId={friendId}/>
+                
+                {/* When clicked, each button adds a new entry to the **Timeline** (see Section 6) */}
+                <div className="border mt-5">
+                    <p>When clicked, each button adds a new entry to the **Timeline** (see Section 6)</p>
 
-                        <div className="shadow-sm py-8 space-y-2 flex flex-col items-center justify-center rounded">
-                            <span className="font-semibold text-3xl">icon</span>
-                            <span className="text-xl text-gray-500">Video</span>
-                        </div>
-                    </div>
                 </div>
 
             </div>

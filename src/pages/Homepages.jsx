@@ -1,6 +1,9 @@
+
 import Friends from "../components/friends/Friends";
 import FriendsHeader from "../ui/FriendsHeader";
 import ProfileData from "../ui/ProfileData";
+
+
 
 const Homepages = () => {
     return(
@@ -8,6 +11,7 @@ const Homepages = () => {
             <FriendsHeader />
             <ProfileData/>
             <Friends/>
+            
         </div>
     )
 }
