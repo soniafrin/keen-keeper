@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className="text-slate-700 shadow" />
-                <div className="flex flex-col md:flex-row justify-between items-center text-[#fafafa] py-5 md:py-1">
+                <div className="flex flex-col md:flex-row justify-between items-center text-[#fafafa] pb-5 md:py-0">
                     <p className="text-center py-6">&copy; 2024 Keen Keeper. All rights reserved.</p>
                     <div className="flex justify-between gap-2">
                         <small>Privacy Policy</small>
