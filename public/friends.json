@@ -42,7 +42,7 @@
     ],
     "bio": "Old friend from home. Plays League of Legends.",
     "goal": 30,
-    "next_due_date": "2025-06-10"
+    "next_due_date": "Jan 27, 2026"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     ],
     "bio": "Lives in Madrid. We talk almost every day.",
     "goal": 2,
-    "next_due_date": "2025-07-03"
+    "next_due_date": "March 07, 2025"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
     ],
     "bio": "Met at the 2024 Tech Summit. Interested in SaaS.",
     "goal": 60,
-    "next_due_date": "2025-09-01"
+    "next_due_date": "Jan 09, 2025"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
     ],
     "bio": "Graphic designer. Worked on the branding project.",
     "goal": 14,
-    "next_due_date": "2025-07-14"
+    "next_due_date": "Jun 15, 2025"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
     ],
     "bio": "Shared a room for 2 years. Need to catch up.",
     "goal": 60,
-    "next_due_date": "2025-05-15"
+    "next_due_date": "Apr 05, 2025"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
     ],
     "bio": "Lives in Apartment 4B. Yoga enthusiast.",
     "goal": 7,
-    "next_due_date": "2025-07-10"
+    "next_due_date": "Jul 10, 2025"
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@
     ],
     "bio": "Frontend lead. Good resource for React questions.",
     "goal": 21,
-    "next_due_date": "2025-07-25"
+    "next_due_date": "Oct 12, 2026"
   },
   {
     "id": 10,
@@ -147,7 +147,7 @@
     ],
     "bio": "Organizes the local food drive. Very reliable.",
     "goal": 30,
-    "next_due_date": "2025-08-01"
+    "next_due_date": "Sep 21, 2026"
   },
   {
     "id": 11,
@@ -162,6 +162,6 @@
     ],
     "bio": "Former lawyer for my previous company.",
     "goal": 365,
-    "next_due_date": "2026-03-10"
+    "next_due_date": "May 01, 2026"
   }
 ]
