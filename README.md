@@ -26,4 +26,5 @@ Analyze your communication habits using charts and visual insights.
 
 📬 Contact
 sonia@soniakhatun.com
+
 Feel free to connect or give feedback!
